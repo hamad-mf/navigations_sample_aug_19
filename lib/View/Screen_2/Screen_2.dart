@@ -19,7 +19,7 @@ class Screen2 extends StatelessWidget {
                 child: const Text("navigate to first screen")),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
                         builder: (context) => const Screen3(),
